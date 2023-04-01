@@ -4,17 +4,66 @@
     box-sizing: border-box;
 }
 
-.btnHomeBanking,  .btnOfficeBanking {
+.textoLogo {
+    font-size: 2rem;
+    color: #fa872a;
+    font-weight: bold;
+}
+
+.textoLogo:hover {
+    font-size: 2rem;
+    color: #fa872a;
+    font-weight: bold;
+}
+
+.btnHomeBanking,
+.btnOfficeBanking {
     background-color: #fa872a;
     color: aliceblue;
     border-radius: 20px;
     font-weight: bold;
 }
 
-.btnHomeBanking:hover , .btnOfficeBanking:hover {
+#logoTitulo {
+    top: 0px;
+    width: 100px;
+}
+
+.btnHomeBanking:hover,
+.btnOfficeBanking:hover {
     background-color: rgb(250, 233, 202);
     border: 0.5px solid #fa872a;
     color: #fa872a;
     border-radius: 20px;
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    #midasnaranja {
+        display: none;
+    }
+
+    #logoTitulo {
+        width: 50px;
+        position: absolute;
+        left: 45%;
+    }
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 300px) {
+    .botonesNaranja {
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btnHomeBanking {
+        width: 90vw;
+        align-self: center;
+    }
 
 }
