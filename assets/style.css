@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.navegador {
+    background-color: white;
+
+}
+
 .textoLogo {
     font-size: 2rem;
     color: #fa872a;
@@ -37,6 +50,32 @@
     border-radius: 20px;
 
 }
+
+/** carrousel */
+.carouselImg {
+    border-radius: 40px;
+}
+
+/** botones servicios bajo el carousel */
+.btnServiciosPersonas {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 110px;
+    color: #0e7bc4;
+
+}
+
+.cajitasPersonas .svg {
+    transform: scale(.3);
+
+    fill: #0e7bc4;
+}
+
+.btnServiciosPersonas:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {

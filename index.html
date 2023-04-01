@@ -17,13 +17,15 @@
 
     <!--iconos de bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--link fontawesome (bootstrap no tiene algunos)-->
+    <script src="https://kit.fontawesome.com/cee4e31326.js" crossorigin="anonymous"></script>
     <!-- estilos css -->
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
 
-    <div class="containter my-2 row d-flex">
+    <div class="containter my-2 row d-flex navegador">
         <nav class="navbar navbar-expand-sm  navbar-light col-12  col-lg-7">
 
 
@@ -66,58 +68,92 @@
 
 
     <header class="containter my-3 hero d-flex justify-content-center">
-        <h1 class="h1 ">¡Hola! ¿En qué podemos ayudarte?</h1>
+        <h1 class="h1 align-self-center">¡Hola! ¿En qué podemos ayudarte?</h1>
     </header>
 
-    <main class="containter d-flex justify-content-center my-2">
+    <div class="containter col-12 my-2 mx-2">
+        <div class="container d-flex justify-content-center">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
+                            class="d-block w-70 carouselImg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
+                            class="d-block w-70 carouselImg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
+                            class="d-block w-70 carouselImg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
 
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
-                        class="d-block w-70" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                    <div class="carousel-item">
+                        <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
+                            class="d-block w-70 carouselImg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
-                        class="d-block w-70" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
-                        class="d-block w-70" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
 
-                <div class="carousel-item">
-                    <img src="./assets/img/kisspng-portable-network-graphics-vector-graphics-clip-art-ftestickersshape-sticker-by-sona-5be22ab8b7be53.0567061815415487287526.jpg"
-                        class="d-block w-70" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
                 </div>
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        </div>
+    </div>
+    <main class="containter col  my-2 mx-2">
+
+        <div class="container cajitasPersonas d-flex flex-wrap justify-content-center ">
+            <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas"><a href="#">
+                    <span class="vstack"> <img src="./assets/img/faviconio-logo/person-plus.svg" class="svg"
+                            alt="persona"> <span>Cuentas</span></span> </a>
+            </div>
+            <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas"><a href="#"> <span class="vstack"> <img
+                            src="./assets/img/faviconio-logo/credit-card-2-front.svg" class="svg" alt="">
+                        <span>Tarjetas</span></span> </a>
+            </div>
+            <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas "><a href="#"> <span class="vstack"> <img
+                            src="./assets/img/faviconio-logo/percent.svg" class="svg" alt="">
+                        <span>Promociones</span></span>
+                </a>
+            </div>
+            <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas">
+                <a href="#"> <span class="vstack"> <img src="./assets/img/faviconio-logo/04ac88db7ca41f114e7d4078e7aebca5.svg"
+                            class="svg" alt="">
+                        <span>Prestamos</span></span> </a>
+            </div>
+            <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas "><a href="#"> <span class="vstack"> <img
+                            src="./assets/img/faviconio-logo/credit-card-2-front.svg" class="svg" alt="">
+
+                        <span>Inversiones</span></span> </a>
+            </div>
+            <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas "><a href="#"> <span class="vstack"> <img
+                            src="./assets/img/faviconio-logo/person-plus.svg" class="svg" alt="">
+                        <span>Seguros</span></span> </a>
+            </div>
+
         </div>
 
 
