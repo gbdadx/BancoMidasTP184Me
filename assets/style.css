@@ -115,6 +115,9 @@ body {
         position: absolute;
         left: 45%;
     }
+    .navbar{
+        font-size: 0.8em;
+    }
 
 }
 
