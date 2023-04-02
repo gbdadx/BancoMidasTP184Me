@@ -55,6 +55,9 @@ body {
 
 
 /** carrousel */
+.containercarousel{
+    width: 80vw;
+}
 .carouselImg {
     border-radius: 40px;
 }
@@ -79,7 +82,19 @@ body {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+/** en el main */
+.bi{
+    font-size: 24px;
+  }
+
 /**prefooter ayuda */
+.ayuda0 {
+    margin: 30px 0px;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
 .ayuda {
     margin: 30px 0px;
     padding: 30px;
