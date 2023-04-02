@@ -51,6 +51,9 @@ body {
 
 }
 
+/**dropdowns **/
+
+
 /** carrousel */
 .carouselImg {
     border-radius: 40px;
@@ -76,6 +79,12 @@ body {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+/**prefooter ayuda */
+.ayuda {
+    margin: 30px 0px;
+    padding: 30px;
+    background-color: rgb(245, 238, 234);
+}
 
 /** foter alternativo para movile */
 
