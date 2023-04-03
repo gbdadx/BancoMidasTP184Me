@@ -55,9 +55,10 @@ body {
 
 
 /** carrousel */
-.containercarousel{
+.containercarousel {
     width: 80vw;
 }
+
 .carouselImg {
     border-radius: 40px;
 }
@@ -68,24 +69,29 @@ body {
     border-radius: 10px;
     text-align: center;
     width: 110px;
-    color: #0e7bc4;
 
 }
 
 .cajitasPersonas .svg {
-    transform: scale(.3);
+    /*  transform: scale(.3);*/
 
-    fill: #0e7bc4;
 }
 
 .btnServiciosPersonas:hover {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-/** en el main */
-.bi{
+/** iconitos */
+.bi {
     font-size: 24px;
-  }
+    color: darkorange;
+  
+}
+
+.cajitasTexto {
+    color: darkorange;
+    font-weight: bold;
+}
 
 /**prefooter ayuda */
 .ayuda0 {
@@ -115,7 +121,8 @@ body {
         position: absolute;
         left: 45%;
     }
-    .navbar{
+
+    .navbar {
         font-size: 0.8em;
     }
 

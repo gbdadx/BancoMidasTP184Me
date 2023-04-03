@@ -101,14 +101,57 @@
         <div class="container col-12   col-lg-5 mt-2 d-flex justify-content-center align-items-center">
             <div class="container row d-flex justify-content-center align-items-center botonesNaranja">
                 <div class="button col-12 col-md-6 d-flex justify-content-center">
-                    <button class="btn  col-11 btnHomeBanking mx-1 mb-1 ">Office Banking</button>
+                    <button class="btn  col-11 btnHomeBanking mx-1 mb-1 "  data-bs-toggle="modal" data-bs-target="#myModal">Office Banking</button>
                 </div>
                 <div class="button col-12 col-md-6 d-flex justify-content-center">
-                    <button class="btn  col-11 btnHomeBanking mx-1 mb-1 ">Online Banking</button>
+                    <button class="btn  col-11 btnHomeBanking mx-1 mb-1 "  data-bs-toggle="modal" data-bs-target="#myModal">Online Banking</button>
                 </div>
             </div>
         </div>
     </div>
+    
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Login</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <form action="#" class="was-validated">
+                    <div class="mb-3 mt-3">
+                      <label for="uname" class="form-label">Username:</label>
+                      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd" class="form-label">Password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                      <label class="form-check-label" for="myCheck">I agree on terms and conditions</label>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Check this box to continue.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      <!-- modal ends-->
 
 
     <header class="containter my-5  d-flex justify-content-center">
@@ -173,30 +216,30 @@
             <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas"><a href="#">
                     <span class="vstack">
                         <i class="bi bi-person-plus"></i>
-                        <span>Cuentas</span>
+                        <span class="cajitasTexto" >Cuentas</span>
                     </span> </a>
             </div>
             <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas"><a href="#"> <span class="vstack"> <i
                             class="bi bi-credit-card-2-front"></i>
-                        <span>Tarjetas</span></span> </a>
+                        <span class="cajitasTexto">Tarjetas</span></span> </a>
             </div>
             <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas "><a href="#"> <span class="vstack"> <i
                             class="bi bi-patch-check"></i>
-                        <span>Promociones</span></span>
+                        <span class="cajitasTexto">Promociones</span></span>
                 </a>
             </div>
             <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas">
                 <a href="#"> <span class="vstack"> <i class="bi bi-cash"></i>
-                        <span>Prestamos</span></span> </a>
+                        <span class="cajitasTexto">Prestamos</span></span> </a>
             </div>
             <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas "><a href="#"> <span class="vstack"> <i
                             class="bi bi-brightness-high"></i>
 
-                        <span>Inversiones</span></span> </a>
+                        <span class="cajitasTexto">Inversiones</span></span> </a>
             </div>
             <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas "><a href="#"> <span class="vstack"><i
                             class="bi bi-shield-check"></i>
-                        <span>Seguros</span></span> </a>
+                        <span class="cajitasTexto">Seguros</span></span> </a>
             </div>
 
         </div>
@@ -334,7 +377,7 @@
         <div class="col-4 text-center">
             <a href="#">
                 <span class="vstack  gap-2">
-                    <i class="bi bi-geo-alt"></i><span>Cajeros y Sucursales</span>
+                    <i class="bi bi-geo-alt"></i><span class="cajitasTexto">Cajeros y Sucursales</span>
 
                 </span>
             </a>
@@ -343,7 +386,7 @@
         <div class="col-4 text-center">
             <a href="#">
                 <span class="vstack  gap-2 ">
-                    <i class="bi bi-person-plus"></i><span><strong>Hacete Cliente Ahora</strong></span>
+                    <i class="bi bi-person-plus"></i><span class="cajitasTexto"><strong>Hacete Cliente Ahora</strong></span>
                 </span>
             </a>
         </div>
@@ -351,7 +394,7 @@
         <div class="col-4 text-center">
             <a href="#">
                 <span class="vstack  gap-2 ">
-                    <i class="bi bi-handbag"></i><span>Beneficios</span>
+                    <i class="bi bi-handbag"></i><span class="cajitasTexto">Beneficios</span>
                 </span>
             </a>
         </div>
@@ -361,6 +404,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+        <script src="./assets/index.js"></script>
 </body>
 
 </html>
