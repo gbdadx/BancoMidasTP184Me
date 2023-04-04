@@ -88,6 +88,10 @@ body {
     stroke-width: 2px;
 }
 
+.ayuda0 a {
+    color: black;
+}
+
 .cajitasTexto {
     color: darkorange;
     font-weight: bold;
@@ -107,8 +111,16 @@ body {
     background-color: rgb(245, 238, 234);
 }
 
-/** foter alternativo para movile */
+/** footer */
+.negro a {
+    color: black;
+}
 
+.footer,
+.ultimo {
+    background-color: white;
+    ;
+}
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
