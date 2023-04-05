@@ -17,17 +17,17 @@ body {
 
 }
 
-.textoLogo {
-    font-size: 2rem;
-    color: #fa872a;
-    font-weight: bold;
+#logoTitulo {
+    top: 0px;
+    width: 100px;
 }
-
+.textoLogo,
 .textoLogo:hover {
     font-size: 2rem;
     color: #fa872a;
     font-weight: bold;
 }
+
 
 .btnHomeBanking,
 .btnOfficeBanking {
@@ -35,11 +35,6 @@ body {
     color: aliceblue;
     border-radius: 20px;
     font-weight: bold;
-}
-
-#logoTitulo {
-    top: 0px;
-    width: 100px;
 }
 
 .btnHomeBanking:hover,
@@ -51,9 +46,6 @@ body {
 
 }
 
-/**dropdowns **/
-
-
 /** carrousel */
 .containercarousel {
     width: 80vw;
@@ -63,7 +55,7 @@ body {
     border-radius: 40px;
 }
 
-/** botones servicios bajo el carousel */
+/** botones servicios bajo el carousel-los que no son naranja */
 .btnServiciosPersonas {
     background-color: white;
     border-radius: 10px;
@@ -72,10 +64,6 @@ body {
 
 }
 
-.cajitasPersonas .svg {
-    /*  transform: scale(.3);*/
-
-}
 
 .btnServiciosPersonas:hover {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -85,10 +73,9 @@ body {
 .bi {
     font-size: 24px;
     color: darkorange;
-    stroke-width: 2px;
 }
 
-.ayuda0 a {
+.ayuda0 a , .negro a{
     color: black;
 }
 
@@ -112,14 +99,11 @@ body {
 }
 
 /** footer */
-.negro a {
-    color: black;
-}
 
 .footer,
 .ultimo {
     background-color: white;
-    ;
+
 }
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -141,7 +125,7 @@ body {
 }
 
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 300px or less,  cambia la posicion de los botones*/
 @media screen and (max-width: 300px) {
     .botonesNaranja {
         display: flex;
