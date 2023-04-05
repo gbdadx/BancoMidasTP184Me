@@ -6,6 +6,7 @@
 
 }
 
+
 a {
     text-decoration: none;
 }
@@ -118,8 +119,8 @@ body {
     display: none;
     /*oculto*/
     position: fixed;
-    bottom: 100px;
-    right: 30px;
+    bottom: 30px;
+    left: 30px;
     /*lo mantiene por enicma de cualquier otro contenido*/
     z-index: 100;
     cursor: pointer;
