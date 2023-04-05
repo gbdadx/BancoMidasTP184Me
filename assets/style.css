@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
 a {
@@ -21,6 +23,7 @@ body {
     top: 0px;
     width: 100px;
 }
+
 .textoLogo,
 .textoLogo:hover {
     font-size: 2rem;
@@ -75,7 +78,8 @@ body {
     color: darkorange;
 }
 
-.ayuda0 a , .negro a{
+.ayuda0 a,
+.negro a {
     color: black;
 }
 
@@ -104,6 +108,30 @@ body {
 .ultimo {
     background-color: white;
 
+}
+
+/** boton scrollup */
+
+#myBtn {
+    /*scroll up button */
+    /*pone el boton en la esquina derecha inferior*/
+    display: none;
+    /*oculto*/
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    /*lo mantiene por enicma de cualquier otro contenido*/
+    z-index: 100;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+
+}
+
+#myBtn:hover {
+    background: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
 }
 
 /* On screens that are 600px or less, set the background color to olive */
