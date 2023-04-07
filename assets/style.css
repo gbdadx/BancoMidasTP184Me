@@ -146,14 +146,21 @@ body {
 
 #myModal,
 .modal-dialog,
-.modal-content {
+.modal-content, .carousel-caption {
     border-radius: 20px;
     background: rgba(255, 255, 255, .3);
     backdrop-filter: blur(5px);
     border: 1.5px solid rgba(209, 213, 219, 0.3);
 }
+.carousel-caption {
+    border-radius: 20px;
+    background: rgba(155, 155, 155, .3);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    margin-bottom: 250px;
+}
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less */
 @media screen and (max-width: 600px) {
     #midasnaranja {
         display: none;
@@ -172,7 +179,7 @@ body {
 }
 
 
-/* On screens that are 300px or less,  cambia la posicion de los botones*/
+/* On screens that are 300px or less*/
 @media screen and (max-width: 300px) {
     .botonesNaranja {
         display: flex;
