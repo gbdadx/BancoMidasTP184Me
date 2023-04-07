@@ -124,7 +124,6 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <h4 class="modal-title">Login</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
 
                 <!-- Modal body -->
@@ -151,7 +150,8 @@
                             <div class="valid-feedback">Ok.</div>
                             <div class="invalid-feedback">Marque esta casilla para continuar</div>
                         </div>
-                        <button class="btn btn-outline-success" >Enviar</button>
+
+                        <button class="btn btn-outline-success" data-bs-dismiss="modal">Enviar</button>
                     </form>
 
                 </div>
@@ -362,8 +362,7 @@
         </section>
 
     </main>
-
-    <div class="containter-fluid d-flex justify-content-around my-2  ayuda0 ">
+    <div class="containter-fluid d-flex justify-content-around   ayuda0 ">
         <div class="row">
             <div class="col-12 col-md-5">
                 <p>
@@ -399,7 +398,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="container-fluid ayuda col text-center">
 
@@ -520,10 +518,6 @@
 
 
     <!-- Chatbot ALMA --lo quite, interferia con el modal del login, lo volvi a habilitar, el problema solo con live server-->
-    <script id="helper" data-idEmpresa="89ab5430-d35a-11ed-ba3a-3119b11ca7b7"
-        data-idChatbot="f4635f00-d35a-11ed-8d7c-bf9c38e2c7de" data-install="1"
-        src="https://assistant.almaintelligence.com:7777/stylesAndScripts/version2/iframe.js"></script> 
-    <!-- Fin Chatbot ALMA -->
 
 
     <script src="./assets/index.js"></script>
