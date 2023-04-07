@@ -101,6 +101,18 @@ body {
 }
 
 /** footer */
+.us_fi {
+    max-width: fit-content;
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+
+}
+
+.us_fi a {
+    text-decoration: none;
+    color: white;
+}
 
 .footer,
 .ultimo {
