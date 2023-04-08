@@ -254,9 +254,9 @@
 
         </div>
         <section class="cajas col-12">
-            <div class="container caja1 g-1 mt-2 d-flex flex-wrap flex-row justify-content-evenly">
+            <div class="container caja1  mt-2  d-flex flex-wrap flex-row justify-content-center">
                 <!-- tres tarjetas, con una imagen arriba, texto en el medio y un boton -->
-                <div class="card " style="width:350px;">
+                <div class="card mx-sm-2 mx-lg-3 my-2" style="width:330px;">
                     <img class="card-img-top" src="./assets/img/faviconio-logo/DALL·E6.png" alt="Card image"
                         style="width:100%">
                     <div class="card-body lh-lg">
@@ -268,7 +268,7 @@
 
                     </div>
                 </div>
-                <div class="card " style="width:350px;">
+                <div class="card mx-sm-2 mx-lg-3 my-2" style="width:330px;">
                     <img class="card-img-top" src="./assets/img/faviconio-logo/DALL·E2.png" alt="Card image"
                         style="width:100%">
                     <div class="card-body lh-lg">
@@ -282,7 +282,7 @@
 
                     </div>
                 </div>
-                <div class="card " style="width:350px;">
+                <div class="card mx-sm-2 mx-lg-3 my-2" style="width:330px;">
                     <img class="card-img-top" src="./assets/img/faviconio-logo/DALL·E5.png" alt="Card image"
                         style="width:100%">
                     <div class="card-body lh-lg">
@@ -332,7 +332,7 @@
 
 
             <div class="container mt-2">
-                <div class="container caja3 d-flex flex-row flex-md-wrap align-items-center justify-content-md-end">
+                <div class="card caja3 d-flex flex-row flex-md-wrap align-items-center justify-content-md-end">
                     <!-- una tarjeta, con texto a la izquierda y boton, a la derecha una imagen, sr pintando un cuadro-->
                     <div class="card ">
                         <div class="row g-0">
@@ -457,7 +457,7 @@
 
         <div class="container lh-lg">
             <div class="row ">
-                <div class="col ">
+                <div class="col-12 col-md-6 ">
                     <div>
                         <h4>¡Seguinos en redes!</h4>
                         <span class="pe-1"><a href="https://es-la.facebook.com/" target="_blank"
@@ -490,11 +490,6 @@
                                     alt="logo-apple-store"></a>
                         </span>
                     </div>
-
-                </div>
-
-                <div class="col">
-                    
                     <div class="us_fi mt-2 p-2">
 
                         <h5>USUARIOS FINANCIEROS</h5>
@@ -513,6 +508,47 @@
                                 las 24 horas. </li>
 
                         </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 ">
+                    <div class="card">
+                        <div class="card-header" style="background-color: white;">
+                            <h4>Formulario de contacto:</h4>
+                        </div>
+                        <div class="card-body">
+                            <form class="form">
+
+                                <div class="form-floating py-1  mb-3">
+                                    <input type="text" class="form-control" id="floatingName"
+                                        placeholder="Nombre y apellido" required>
+                                    <label for="floatingName">Nombre y apellido</label>
+                                </div>
+                                <div class="form-floating py-1 mb-3">
+                                    <input type="text" class="form-control" id="floatingAddress"
+                                        placeholder="Domicilio">
+                                    <label for="floatingAddress">Domicilio</label>
+                                </div>
+                                <div class="form-floating py-1 mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" required>
+                                    <label for="floatingInput">E-mail</label>
+                                </div>
+                                <div class="form-floating py-1 mb-3">
+                                    <input type="phone" class="form-control" id="floatingPhone" placeholder="Telefono"
+                                        required>
+                                    <label for="floatingPhone">Telefono</label>
+                                </div>
+                                <div class="form-floating py-1 mb-3">
+                                    <textarea class="form-control" placeholder="Deja tu comentario aqui"
+                                        id="floatingTextarea"></textarea>
+                                    <label for="floatingTextarea">Commentarios</label>
+                                </div>
+
+                                <button type="button" class="btn btnHomeBanking" value="Enviar">Enviar </button>
+
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
