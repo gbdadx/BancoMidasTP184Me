@@ -59,8 +59,11 @@ body {
 .carouselImg {
     border-radius: 40px;
 }
-
-
+.carousel-inner img {       
+    display:block;
+    height: auto; 
+    max-width: 100%;
+ }
 /** botones servicios bajo el carousel-los que no son naranja */
 .btnServiciosPersonas {
     background-color: white;
@@ -125,7 +128,7 @@ body {
     background-color: white;
 }
 
-
+/** cambia el color por defecto de los inputs enfocados en el formulario de contacto*/
 .form-control:focus {
     border-color: #ff8800;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 187, 0, 0.904);
