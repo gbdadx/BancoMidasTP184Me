@@ -59,11 +59,13 @@ body {
 .carouselImg {
     border-radius: 40px;
 }
-.carousel-inner img {       
-    display:block;
-    height: auto; 
+
+.carousel-inner img {
+    display: block;
+    height: auto;
     max-width: 100%;
- }
+}
+
 /** botones servicios bajo el carousel-los que no son naranja */
 .btnServiciosPersonas {
     background-color: white;
@@ -160,13 +162,30 @@ body {
 }
 
 #myModal,
-.modal-dialog,
-.modal-content,
+
+
 .carousel-caption {
     border-radius: 20px;
     background: rgba(255, 255, 255, .3);
     backdrop-filter: blur(5px);
     border: 1.5px solid rgba(209, 213, 219, 0.3);
+}
+
+#myModal,
+#myModal1,
+.modal-dialog,
+.modal-content,
+.modal-body {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    border: 0px;
+}
+
+.modal-body {
+    color: white;
 }
 
 .carousel-caption {

@@ -123,13 +123,10 @@
         <div class="modal-dialog">
             <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Login</h4>
-                </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
+                    <h4 >Login</h4>
 
                     <form action="#" autocomplete="off">
                         <div class="form-floating py-1  mb-3">
@@ -147,8 +144,8 @@
 
 
                         </div>
-
-                        <button type="submit" class="btn btnHomeBanking">Enviar</button>
+                        <button type="submit" class="btn btnHomeBanking" style="width: fit-content;"
+                        data-bs-dismiss="modal" onclick="location.reload()">Enviar</button>
                     </form>
 
                 </div>
@@ -168,7 +165,7 @@
             <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/faviconio-logo/DALL·E6.png" class="d-block w-100 carouselImg" 
+                        <img src="./assets/img/faviconio-logo/DALL·E6.png" class="d-block w-100 carouselImg"
                             alt="imagen1">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Tenés inversiones</h1>
@@ -536,8 +533,8 @@
                                     <label for="floatingInput">E-mail</label>
                                 </div>
                                 <div class="form-floating py-1 mb-3">
-                                    <input type="number" class="form-control" id="floatingPhone" placeholder="Telefono" >
-                                    <label for="floatingPhone" >Telefono</label>
+                                    <input type="number" class="form-control" id="floatingPhone" placeholder="Telefono">
+                                    <label for="floatingPhone">Telefono</label>
                                 </div>
                                 <div class="form-floating py-1 mb-3">
                                     <textarea class="form-control" placeholder="Deja tu comentario aqui"
@@ -545,11 +542,32 @@
                                     <label for="floatingTextarea">Commentarios</label>
                                 </div>
 
-                                <button type="button" class="btn btnHomeBanking" value="Enviar">Enviar </button>
+                                <button type="button" class="btn btnHomeBanking" value="Enviar" data-bs-toggle="modal"
+                                    data-bs-target="#myModal1">Enviar </button>
 
                             </form>
+
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h4 class="modal-title">Gracias por comunicarse!</h4>
+
+                        <h6>Nos comunicaremos a la brevedad</h6>
+                        <button type="submit" class="btn btnHomeBanking" style="width: fit-content;"
+                            data-bs-dismiss="modal" onclick="location.reload()">Cerrar</button>
+                    </div>
+
+
                 </div>
             </div>
         </div>
