@@ -176,14 +176,19 @@ body {
 .modal-dialog,
 .modal-content,
 .modal-body {
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.3px);
     border: 0px;
 }
-
+/* otra, pero mas oscuro
+#myModal,
+#myModal1,
+.modal-dialog,
+.modal-content {
+    background: transparent;
+}*/
 .modal-body h4, .modal-body h6 {
     color: white;
 }
