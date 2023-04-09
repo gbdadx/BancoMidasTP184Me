@@ -184,7 +184,7 @@ body {
     border: 0px;
 }
 
-.modal-body {
+.modal-body h4, .modal-body h6 {
     color: white;
 }
 
