@@ -123,37 +123,29 @@
         <div class="modal-dialog">
             <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Login</h4>
-                </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
+                    <h4 >Login</h4>
 
-                    <form action="#" class="was-validated">
-                        <div class="mb-3 mt-3">
-                            <label for="uname" class="form-label">Nombre de usuario:</label>
-                            <input type="text" class="form-control" id="uname" placeholder="Ingrese nombre de usuario"
-                                name="uname" required>
-                            <div class="valid-feedback">Ok.</div>
-                            <div class="invalid-feedback">Por favor, complete este campo.</div>
+                    <form action="#" autocomplete="off">
+                        <div class="form-floating py-1  mb-3">
+
+                            <input type="email" class="form-control" id="uname" placeholder="Ingrese email" name="uname"
+                                autocomplete="off">
+                            <label for="uname" class="form-label">e-mail:</label>
+
+
                         </div>
-                        <div class="mb-3">
-                            <label for="pwd" class="form-label">Contraseña:</label>
+                        <div class="form-floating py-1  mb-3">
                             <input type="password" class="form-control" id="pwd" placeholder="Ingrese contraseña"
-                                name="pswd" required>
-                            <div class="valid-feedback">Ok.</div>
-                            <div class="invalid-feedback">Por favor, complete este campo.</div>
-                        </div>
-                        <div class="form-check mb-3">
-                            <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
-                            <label class="form-check-label" for="myCheck">Acepto terminos y condiciones</label>
-                            <div class="valid-feedback">Ok.</div>
-                            <div class="invalid-feedback">Marque esta casilla para continuar</div>
-                        </div>
+                                name="pswd" autocomplete="off">
+                            <label for="pwd" class="form-label">Contraseña:</label>
 
-                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Enviar</button>
+
+                        </div>
+                        <button type="submit" class="btn btnHomeBanking" style="width: fit-content;"
+                        data-bs-dismiss="modal" onclick="location.reload()">Enviar</button>
                     </form>
 
                 </div>
@@ -173,7 +165,7 @@
             <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/faviconio-logo/DALL·E6.png" class="d-block w-100 carouselImg" wi
+                        <img src="./assets/img/faviconio-logo/DALL·E6.png" class="d-block w-100 carouselImg"
                             alt="imagen1">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Tenés inversiones</h1>
@@ -462,7 +454,7 @@
         <div class="container lh-lg">
             <div class="row ">
                 <div class="col-12 col-md-6 ">
-                    <div>
+                    <div class="mb-4">
                         <h4>¡Seguinos en redes!</h4>
                         <span class="pe-1"><a href="https://es-la.facebook.com/" target="_blank"
                                 rel="noopener noreferrer">
@@ -480,7 +472,7 @@
                                 <img src="./assets/img/youtube.svg" alt="youtube">
                             </a></span>
                     </div>
-                    <div class="apps mt-4">
+                    <div class="apps mt-4 mb-4">
                         <h4>Ahorrá tiempo y ganá comodidad</h4>
                         <h5>Descargá nuestra <strong> App Midas </strong></h5>
                         <span class="cajita px-2 py-2">
@@ -494,13 +486,14 @@
                                     alt="logo-apple-store"></a>
                         </span>
                     </div>
-                    <div class="us_fi mt-2 p-2">
-
-                        <h5>USUARIOS FINANCIEROS</h5>
-                        <p> <a href="https://www.ususariosfinancieros.gob.ar"> www.ususariosfinancieros.gob.ar</a></p>
+                    <div class="us_fi mt-4 mb-4 p-3">
+                        <a href="http://www.bcra.gob.ar/BCRAyVos/usuarios_financieros.asp">
+                            <h5>USUARIOS FINANCIEROS</h5>
+                            <p>https://www.ususariosfinancieros.gob.ar</p>
+                        </a>
                     </div>
 
-                    <div class="telefonos mt-4">
+                    <div class="telefonos mt-4 mb-3">
                         <h4>Teléfonos útiles </h4>
                         <ul class="lh-lg">
                             <li>Atencion telefonica: <a href="tel:+54">0810-555-5555</a> / <a
@@ -521,12 +514,13 @@
                             <h4>Formulario de contacto:</h4>
                         </div>
                         <div class="card-body">
-                            <form class="form">
+                            <form class="form" autocomplete="off">
 
                                 <div class="form-floating py-1  mb-3">
                                     <input type="text" class="form-control" id="floatingName"
-                                        placeholder="Nombre y apellido" required>
-                                    <label for="floatingName">Nombre y apellido</label>
+                                        placeholder="Nombre y apellido">
+                                    <label for="floatingName" style="background-color:transparent !important;
+                                    ">Nombre y apellido</label>
                                 </div>
                                 <div class="form-floating py-1 mb-3">
                                     <input type="text" class="form-control" id="floatingAddress"
@@ -535,12 +529,11 @@
                                 </div>
                                 <div class="form-floating py-1 mb-3">
                                     <input type="email" class="form-control" id="floatingInput"
-                                        placeholder="name@example.com" required>
+                                        placeholder="name@example.com">
                                     <label for="floatingInput">E-mail</label>
                                 </div>
                                 <div class="form-floating py-1 mb-3">
-                                    <input type="phone" class="form-control" id="floatingPhone" placeholder="Telefono"
-                                        required>
+                                    <input type="number" class="form-control" id="floatingPhone" placeholder="Telefono">
                                     <label for="floatingPhone">Telefono</label>
                                 </div>
                                 <div class="form-floating py-1 mb-3">
@@ -549,11 +542,32 @@
                                     <label for="floatingTextarea">Commentarios</label>
                                 </div>
 
-                                <button type="button" class="btn btnHomeBanking" value="Enviar">Enviar </button>
+                                <button type="button" class="btn btnHomeBanking" value="Enviar" data-bs-toggle="modal"
+                                    data-bs-target="#myModal1">Enviar </button>
 
                             </form>
+
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h4 class="modal-title">Gracias por comunicarse!</h4>
+
+                        <h6>Nos comunicaremos a la brevedad</h6>
+                        <button type="submit" class="btn btnHomeBanking" style="width: fit-content;"
+                            data-bs-dismiss="modal" onclick="location.reload()">Cerrar</button>
+                    </div>
+
+
                 </div>
             </div>
         </div>
