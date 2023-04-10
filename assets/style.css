@@ -204,10 +204,10 @@ body {
 
 
 
-/* On screens that are 600px or less */
+/* en patallas con ancho maximo  600px o menos */
 @media screen and (max-width: 600px) {
     #midasnaranja {
-        display: none;
+        display: none; /*desaparece 'Banco Midas' de la navbar en pantallas chicas*/
         font-size: 1rem;
     }
 
@@ -224,7 +224,7 @@ body {
 }
 
 
-/* On screens that are 300px or less*/
+/* pantallas de  300px o o menos*/
 @media screen and (max-width: 300px) {
     .botonesNaranja {
         display: flex;
