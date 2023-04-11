@@ -104,11 +104,14 @@ body {
 .ayuda0 {
     padding: 30px;
     background-color: white;
+    margin: 0px -10px;
 }
 
 .ayuda {
-    padding: 30px 0px;
+    padding: 30px ;
     background-color: rgb(245, 238, 234);
+    margin: 0px -10px;
+
 }
 
 /** footer */
@@ -182,14 +185,9 @@ body {
     backdrop-filter: blur(3.3px);
     border: 0px;
 }
-/* otra, pero mas oscuro
-#myModal,
-#myModal1,
-.modal-dialog,
-.modal-content {
-    background: transparent;
-}*/
-.modal-body h4, .modal-body h6 {
+
+.modal-body h4,
+.modal-body h6 {
     color: white;
 }
 
@@ -207,7 +205,8 @@ body {
 /* en patallas con ancho maximo  600px o menos */
 @media screen and (max-width: 600px) {
     #midasnaranja {
-        display: none; /*desaparece 'Banco Midas' de la navbar en pantallas chicas*/
+        display: none;
+        /*desaparece 'Banco Midas' de la navbar en pantallas chicas*/
         font-size: 1rem;
     }
 

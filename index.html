@@ -163,7 +163,7 @@
     <header class="containter my-5  d-flex justify-content-center">
         <h1 class="h1 text-center">¡Hola! ¿En qué podemos ayudarte?</h1>
     </header>
-<!-- carousel -->
+    <!-- carousel -->
     <div class="container col containercarousel">
         <div class="containter col-12 my-2 mx-2 ">
             <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
@@ -222,9 +222,11 @@
     </div>
     <!--fin del carousel -->
     <!--main, botones,  contenedores y fotos-->
-    <main class="containter col  my-2 mx-2">
+    <!-- el validador de html da warning cuando una seccion o article no tiene heading,
+         por eso se usaron divs, siguiendo el estilo de bootstrap-->
+    <main class="containter col  my-2 mx-0 mb-0">
 
-        <div class="container cajitasPersonas d-flex flex-wrap justify-content-center ">
+        <div class="container cajitasPersonas d-flex flex-wrap justify-content-center mt-2">
             <div class="button btn-light  mx-1 my-1 p-2   btnServiciosPersonas"><a href="#">
                     <span class="vstack">
                         <i class="bi bi-person-plus"></i>
@@ -255,7 +257,7 @@
             </div>
 
         </div>
-        <section class="cajas col-12">
+        <div class="cajas col-12 mt-2">
             <div class="container caja1  mt-2  d-flex flex-wrap flex-row justify-content-center">
                 <!-- tres tarjetas, con una imagen arriba, texto en el medio y un boton -->
                 <div class="card mx-sm-2 mx-lg-3 my-2" style="width:330px;">
@@ -360,55 +362,54 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="containter-fluid d-flex justify-content-around  mt-2 ayuda0 ">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <p>
+                        <a href=""> Información al Usuario Financiero
+                        </a>
+                    </p>
+                    <p>
+                        <a href=""> Cuenta Gratuita Universal
+                        </a>
+                    </p>
+                    <p>
+                        <a href=""> Botón de arrepentimiento
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3 "></div>
 
-    </main>
-    <!-- podria estar en el main, pero preferimos que fuera container fluid, asi que seria un prefooter-->
-    <div class="containter-fluid d-flex justify-content-around   ayuda0 ">
-        <div class="row">
-            <div class="col-12 col-md-5">
-                <p>
-                    <a href=""> Información al Usuario Financiero
-                    </a>
-                </p>
-                <p>
-                    <a href=""> Cuenta Gratuita Universal
-                    </a>
-                </p>
-                <p>
-                    <a href=""> Botón de arrepentimiento
-                    </a>
-                </p>
-            </div>
-            <div class="col-md-3 "></div>
+                <div class="col-12 col-md-4 ">
 
-            <div class="col-12 col-md-4 ">
+                    <p>
+                        <a href=""> Hacer reclamo en Defensa del Consumidor
+                        </a>
+                    </p>
+                    <p>
+                        <a href=""> Contratos de Adhesión
+                        </a>
+                    </p>
+                    <p>
+                        <a href=""> Acciones colectivas
+                        </a>
+                    </p>
 
-                <p>
-                    <a href=""> Hacer reclamo en Defensa del Consumidor
-                    </a>
-                </p>
-                <p>
-                    <a href=""> Contratos de Adhesión
-                    </a>
-                </p>
-                <p>
-                    <a href=""> Acciones colectivas
-                    </a>
-                </p>
-
+                </div>
             </div>
         </div>
-    </div>
+        <div class="container-fluid ayuda col text-center mx-0">
 
-    <div class="container-fluid ayuda col text-center">
+            <h2 class="h2 ">Necesitas ayuda?</h2>
+            <h3 class="h3">Respondemos a tus preguntas</h3>
+            <button class="btn btn-group-lg btnHomeBanking">Ir a ayuda</button>
+        </div>
+    </main>
+       
+    <!-- footer -->
+    <footer class="footer mt-0 mx-0 py-3 px-3">
 
-        <h2 class="h2 ">Necesitas ayuda?</h2>
-        <h3 class="h3">Respondemos a tus preguntas</h3>
-        <button class="btn btn-group-lg btnHomeBanking">Ir a ayuda</button>
-    </div>
-<!-- footer -->
-    <footer class="footer py-3 px-3">
 
         <div class="row py-3 px-3 ">
             <div class="col-12 col-sm-6 col-lg-3 mt-3 mt-lg-0 ">
@@ -608,7 +609,7 @@
         </nav>
     </footer>
     <!-- scripts -->
-    
+
     <script src="./assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
 
 
