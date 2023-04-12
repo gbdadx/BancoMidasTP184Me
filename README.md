@@ -11,8 +11,7 @@ DAGOSTINO ENRIQUE
 MUSA RUIZ VERONICA B.
 
 netlify
-https://inspiring-empanada-448c76.netlify.app/
-
+https://tpintegradorcom184grupo1me.netlify.app/
 git hub
 https://github.com/gbdadx/BancoMidasTP184Me.git
 github pages
