@@ -17,7 +17,6 @@ git hub
 https://github.com/gbdadx/BancoMidasTP184Me.git
 github pages
 https://gbdadx.github.io/BancoMidasTP184Me/
-
 figma
 https://www.figma.com/proto/Z6QliUMnBsw5tpFHWWnEUd/MaquetaTP?node-id=3-13&scaling=min-zoom&page-id=1%3A3
 
