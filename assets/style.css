@@ -162,7 +162,7 @@ body {
     display: none;
     /*oculto*/
     position: fixed;
-    bottom: 30px;
+    bottom: 150px;
     right: 30px;
     /*lo mantiene por enicma de cualquier otro contenido*/
     z-index: 100;
