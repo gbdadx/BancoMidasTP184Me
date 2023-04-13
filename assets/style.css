@@ -213,11 +213,13 @@ body {
     margin-bottom: 30px;
 }
 
-
+.card3 img{
+    width: 330px;
+}
 
 /* pantallas de  768px o o menos*/
 @media screen and (max-width: 768px) {
-    
+
     .card3 {
         width: 100% !important;
     }
