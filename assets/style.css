@@ -237,9 +237,6 @@ body {
 
 }
 
-
-}
-
 /* en patallas con ancho maximo  600px o menos */
 @media screen and (max-width: 600px) {
     #midasnaranja {
