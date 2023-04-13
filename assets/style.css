@@ -213,7 +213,7 @@ body {
     margin-bottom: 30px;
 }
 
-.card3 img{
+.card3 img {
     width: 330px;
 }
 
@@ -223,6 +223,19 @@ body {
     .card3 {
         width: 100% !important;
     }
+
+
+}
+
+/* pantallas de  1000px o mas*/
+@media screen and (min-width: 992px) {
+
+    .card3 {
+        width: 33% !important;
+    }
+
+
+}
 
 
 }
