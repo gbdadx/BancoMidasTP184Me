@@ -24,7 +24,7 @@ body {
 .navegador {
     background-color: white;
     margin-top: -30px;
-    padding:20px 0px;
+    padding: 20px 0px;
 
 }
 
@@ -215,6 +215,15 @@ body {
 
 
 
+/* pantallas de  768px o o menos*/
+@media screen and (max-width: 768px) {
+    
+    .card3 {
+        width: 100% !important;
+    }
+
+
+}
 
 /* en patallas con ancho maximo  600px o menos */
 @media screen and (max-width: 600px) {
