@@ -102,6 +102,7 @@ body {
 
 .hacetecliente {
     color: darkorange;
+    font-weight: bold;
 }
 
 .ayuda0 a,
@@ -186,6 +187,7 @@ body {
     background: rgba(255, 255, 255, .3);
     backdrop-filter: blur(5px);
     border: 1.5px solid rgba(209, 213, 219, 0.3);
+    padding:10px;
 }
 
 #myModal,
