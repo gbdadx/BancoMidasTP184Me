@@ -18,3 +18,9 @@ function topFunction() {
   document.body.scrollTop = 0; // para safari
   document.documentElement.scrollTop = 0; // oara  Chrome, Firefox, IE y Opera
 }
+
+// // Function to GeneratePdf
+		function GeneratePdf() {
+			var element = document.getElementById('form-print');
+			html2pdf(element);
+		}
