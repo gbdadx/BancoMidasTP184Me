@@ -22,5 +22,4 @@ https://www.figma.com/proto/Z6QliUMnBsw5tpFHWWnEUd/MaquetaTP?node-id=3-13&scalin
 
 
 tecnologias utilizadas:
-html, css, js (eventos, manejo del DOM), bootstrap, bootstrap icons, figma, imagenes generadas por inteligencia artificial (DALLE2- open IA) para las cards y carousel
-
+html, css, js (eventos, manejo del DOM), bootstrap, bootstrap icons, figma
